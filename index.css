@@ -1,0 +1,46 @@
+
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 142px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #ffb30e;
+    background-image: linear-gradient(to bottom, #ffffff, #ffb30e);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 63.79px;
+    line-height: 120%;
+    min-width: 267px;
+  }
+  
+  .logo-kon {
+    color: #f17228;
+    letter-spacing: -1.59px;
+  }
+  
+  .logo-nect {
+    color: #ffb30e;
+    letter-spacing: -1.28px;
+  }
+  
+  @media (max-width: 768px) {
+    .logo {
+      font-size: 48px;
+      min-width: 200px;
+    }
+    
+    .top-nav {
+      min-height: 100px;
+    }
+  }
+  
+

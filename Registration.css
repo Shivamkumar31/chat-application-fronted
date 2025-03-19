@@ -1,0 +1,83 @@
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ffae01;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn, .register-btn {
+  display: flex;
+  align-items: center;
+  gap: 11.7px;
+  padding: 10px 20px;
+  border-radius: 9.36px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn {
+  background: #fff;
+  color: #f59500;
+}
+
+.register-btn {
+  background: #f59500;
+  color: #fff;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 768px;
+  min-height: 582px;
+  background-color: #d8d4cb;
+  background-image: url('https://dashboard.codeparrot.ai/api/image/Z9r0qyppvFKitUeD/dust.png');
+  background-size: cover;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.register-form {
+  background: #fff;
+  border-radius: 9.36px;
+  padding: 30px;
+  width: 100%;
+  max-width: 505px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .auth-buttons {
+    flex-direction: row;
+  }
+
+  .register-container {
+    padding: 10px;
+    margin-top: 60px;
+  }
+}
+
+
+
+
+
